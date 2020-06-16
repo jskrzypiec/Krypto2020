@@ -1,0 +1,15 @@
+Przy przygotowaniu pliku opcją '-p' wielke litery zostaną zamienione na małe litery, 
+a wszystkie znaki inne niż litery (angielskiego alfabetu) i spacje zostaną pominięte.
+Plik 'plain.txt' będzie składał się z linii równej długości, 
+nadmiar znaków na końcu zostanie pominięty.
+
+Przy szyfrowaniu (opcja '-e') przyjąłem założenie, że klucz jest odpowiednio przygotowany,
+tzn.:
+-klucz jest dokładnie tej samej długości co każda linia w pliku 'plain.txt'
+-klucz składa się wyłącznie z małych liter (angielskiego alfabetu) i spacji
+
+Zaszyfrowana wiadomość w pliku 'crypto.txt' jest w postaci tablic liczb:
+-każda liczba w danej tablicy odpowiada pojedynczemu znakowi z pliku 'plain.txt',
+-każda tablica liczb odpowiada jednej linii tekstu z pliku 'plain.txt'
+
+
